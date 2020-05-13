@@ -1,0 +1,9 @@
+---
+default: -p dev_toolbox -p html -p pretty
+ci: -p dev_toolbox -p json -p pretty   #CONTINUOS INTEGRATION#
+dev: ENV_TYPE=dev
+dev_toolbox: ENV_TYPE=dev_toolbox
+hmg: ENV_TYPE=hmg 
+html: --format html --out=log/report.html
+pretty: --format pretty
+json: --format json --out=log/report.json

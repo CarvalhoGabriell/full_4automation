@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            font-size: 20pt Arial;
+            color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiros estudos com o DOM</h1>
+    <p> Aqui vai um texto bem longo </p>
+    <p> Como usar o <strong>DOM</strong> com JavaScript</p>
+    <div id = 'linkao'> Click em mim</div>
+
+    <script> 
+        var corpo = document.body
+        var p1 = document.getElementsByTagName('p')[1]
+        //document.write(p1.innerHTML)
+        p1.style.color = 'purple'
+
+        var p2 = document.getElementsByTagName('p')[0]
+        //document.write(p1.innerHTML)
+        p2.style.color = 'yellow'
+       
+
+        /*
+        var d = document.getElementById('linkao')
+        d.style.color = 'green'
+        d.innerText = 'Next page...'
+        */
+
+        var d = document.querySelector('div#linkao')
+        d.style.color = 'red'
+        d.innerText = 'Olá novo link!!!'
+
+    </script>
+</body>
+</html>

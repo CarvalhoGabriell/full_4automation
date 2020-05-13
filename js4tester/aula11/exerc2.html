@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nascionalidades</title>
+</head>
+<body>
+    <h1>De qual lugar do mundo você é?</h1>
+
+    <p> </p>
+    Digite o nome do seu país: <input type="text" name="txt" id="txt">
+    <input type="button" value="verificar" onclick="revelar()">
+    <div id = 'msg'>
+
+    </div>
+
+    <script>
+        function revelar() {
+           var txt = document.getElementById('txt').value 
+           var mesage = document.getElementById('msg')
+           var pais = txt.toUpperCase()
+
+            mesage.innerHTML += `<p> Significa que você veio do(a) ${pais}!!! SEJA BEM VINDO. </p>`
+           if (pais != 'BRASIL') {
+                mesage.innerHTML += `<p> Você é estrangeiro, viado! </p> `
+           } else {
+                mesage.innerHTML += `<p>Você é brasileiro cusão!!!! </p> `
+           }
+        
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    background-color: blueviolet;
+    font-family: Arial;
+
+}
+
+header > h1 {
+    font-size:50px Arial;
+    color: rgb(98, 93, 93);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 230px;
+    padding: 15px;
+    background-color: rgb(0, 255, 225);
+    border-radius: 10px;
+    width: 700px;
+
+}
+
+section {
+    background-color: cornsilk;
+    padding: 50px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.496);
+    border-radius: 11px;
+
+}
+
+div#res {
+    text-align: center;
+    padding: 15px;
+}
+
+div#text {
+    text-align: center;
+}
+footer {
+    font-size: 10px;
+    text-align: center ;
+    padding: 100px;
+    color: cornsilk;
+    
+}

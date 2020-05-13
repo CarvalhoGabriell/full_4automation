@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(83, 154, 216);
+    font-family: Arial;
+
+}
+
+header > h1 {
+    font-size: 50px Arial;
+    color: snow;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    margin-bottom: 25px;
+
+}
+
+section {
+    background-color: cornsilk;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.496);
+    border-radius: 11px;
+
+}
+
+div#msg{
+    text-align: center;
+    font-style: oblique;
+    font-size: 18pt;
+
+}
+
+div#foto{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+footer {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    padding: 100px;
+    margin-top: 30px;
+    color: cornsilk;
+    
+}

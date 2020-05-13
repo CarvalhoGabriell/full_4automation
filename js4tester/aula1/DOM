@@ -1,0 +1,22 @@
+// DOM = Document Object Model => São elementos javascripts que marcam seu código
+
+HTML => Página
+
+// ELEMENTOS DE MARCAÇÃO DENTRO DA PÁGINA HTML
+
+h1 = Titulos/cabeçalhos
+p = Paragrafos
+a = Links
+ul = Agrupadores de listas 
+li = elementos da kista dentro das ul
+forms = Formularios
+input do tipo text = campos de texto
+input do tipo check = campos de check-box
+input do tipo radio = campos de botões de radio
+textarea = Paragrafos
+button = botões
+span =Elementos genericos
+tables = tabelas
+tds = colunas das tabelas 
+divs = Divisões dentro do HTML
+labels = Textos 
